@@ -1,0 +1,28 @@
+.navbar {
+    
+    &__logo--img{
+        width: 4rem;
+        height: 4.375rem;
+        margin: 0.313rem;
+    }
+
+    &__barlinks {
+
+        margin: 1.25rem;
+        margin-right: auto;
+    }
+
+    &__links {
+        margin: 1.25rem;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 6.771vw;
+        width: 26.042vw; 
+    }
+}

@@ -1,0 +1,35 @@
+.navbar {
+    
+    &__login, &__register {
+
+        width: 40%;
+        height: 40%;
+
+    }
+
+    &__login {
+        border: 0.063rem solid;
+        background-color: $isabelline;
+        color: $quick-silver;
+    }
+
+    &__login:hover {
+
+        background-color: $white;
+        color: $black;
+
+    }
+
+    &__register {
+        border: none;
+        background-color: $shiny-shamrock;
+        color: $white;
+    }
+
+    &__register:hover {
+
+        color: $black;
+        background-color: $turqoise-green;
+
+    }
+}
