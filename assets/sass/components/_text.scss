@@ -1,0 +1,41 @@
+body{
+    
+    font-family: "PT Mono";
+}
+
+.main-section{
+
+    &__wrapper--left{
+        font-family: "roboto";
+    }
+
+    &__title, &__icon{
+        font-size: $font-xxx;
+        font-weight: bold;
+    }
+
+    &__subtitle{
+        font-size: $font-x;
+    }
+    
+    &__details-title{
+        font-size: $font-xx;
+        font-weight: 400;
+    }
+
+    &__details-text{
+        font-size: $font-l;
+    }
+}
+
+.footer {
+    font-family: "roboto";
+
+    &__title{
+        font-size: $font-xx;
+    }
+
+    &__subtitle{
+        font-size: font-m ;
+    }
+}
