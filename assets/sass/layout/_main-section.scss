@@ -52,8 +52,7 @@
         width: 17rem;
         height: 9.8125rem;
         padding: 3rem 2.375rem 0 4.4375rem;
-
-
+        margin: 0 0 0 3.5rem;
     }
 
     &__title {
@@ -91,7 +90,7 @@
     &__squaryr{
         background-color: $flame;
         color: $white;
-        bottom: 1.25rem;
+        bottom: 2.2rem;
         left: -0.9375rem;
         display: flex;
         align-items: center;
